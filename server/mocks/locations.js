@@ -8,14 +8,14 @@ module.exports = function(app) {
         {
           id: 1,
           name: 'oaks castle',
-          room_ids: [1]
+          rooms: [1]
         }
       ],
       'rooms': [
         {
           id: 1,
           name: 'patio',
-          location_id: 1
+          location: 1
         }
       ]
     });

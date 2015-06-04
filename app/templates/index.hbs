@@ -1,14 +1,5 @@
-<h1>INDEX</h1>
+<h1>Select a location</h1>
 {{#each model as |location|}}
   {{link-to location.name 'location' location}}
-  <pre>ID: {{location.id}}</pre>
-  <pre>ROOM COUNT: {{location.rooms.length}}</pre>
-  {{#each location.rooms as |room|}}
-    name: {{room.name}}
-    {{#each room.workstations as |workstation|}}
-      name: {{workstation.name}}
-    {{/each}}
-  {{/each}}
 {{/each}}
-
 {{outlet}}

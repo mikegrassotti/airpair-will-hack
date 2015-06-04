@@ -1,2 +1,5 @@
-location {{model.id}} - {{model.name}}
+<h2>{{link-to model.name 'location' model}}</h2>
+{{outlet}}
+<hr/>
 {{hack-map workstations=model.allWorkstations}}
+<hr/>

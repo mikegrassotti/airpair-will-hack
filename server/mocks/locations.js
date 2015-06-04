@@ -15,7 +15,32 @@ module.exports = function(app) {
         {
           id: 1,
           name: 'patio',
-          location: 1
+          location: 1,
+          workstations: [1,2]
+        },
+      ],
+      'workstations': [
+        {
+          id: 1,
+          room: 1,
+          name: 'workstation 1',
+          type: 'workstation',
+          href: 'http://dhappy.org/.../image/icon/computer/',
+          x: "1800",
+          y: "800",
+          height: "150px",
+          width: "150px"
+        },
+        {
+          id: 2,
+          room: 1,
+          name: 'workstation 2',
+          type: 'workstation',
+          href: 'http://dhappy.org/.../image/icon/computer/',
+          x: "2800",
+          y: "400",
+          height: "150px",
+          width: "150px"
         }
       ]
     });

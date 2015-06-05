@@ -1,5 +1,8 @@
 <h2>{{link-to model.name 'location' model}}</h2>
 {{outlet}}
 <hr/>
+{{#each model.allWorkstations as |workstation|}}
+name: {{workstation.name}}
+{{/each}}
 {{hack-map workstations=model.allWorkstations}}
 <hr/>

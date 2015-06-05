@@ -331,7 +331,7 @@
 <rect x="606.991" y="1387.65" fill="#BCBEC0" stroke="#000000" stroke-miterlimit="10" width="131.993" height="34.016"/>
 <rect x="606.991" y="1423.65" fill="#BCBEC0" stroke="#000000" stroke-miterlimit="10" width="131.993" height="34.016"/>
 
-{{#each areas as |area|}}
+{{#each workstations as |area|}}
   <image {{action 'makeReservation' area.id}} xlink:href={{area.href}} x={{area.x}} y={{area.y}} height={{area.height}} width={{area.width}} />
 {{/each}}
 </svg>
